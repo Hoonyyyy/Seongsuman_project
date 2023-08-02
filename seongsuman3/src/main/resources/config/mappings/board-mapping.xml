@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="BoardDAO">
+			<!-- vo                db table -->
+	<resultMap type="board" id="boardResult">
+		<id property="bbsid"  column="BBSID"/>
+		<result property="bbstitle" column="BBSTITLE"/>
+		<result property="userid" column="USERID"/>
+		<result property="bbsdate" column="BBSDATE"/>
+		<result property="bbscontent" column="BBSCONTENT"/>
+		<result property="bbsavailable" column="BBSAVAILABLE"/>
+	</resultMap>
+	
+	
+	<!-- 등록 -->
+	<insert id="insertBoard" parameterType="board">
+		insert into bbs(bbsid, bbstitle, userid, bbscontent) 
+			values (#{bbsid}, #{bbstitle}, #{userID}, #{bbscontent})
+	</insert>
+	
+	<!-- 수정 -->
+	<update id="updateBoard">
+	    UPDATE bbs SET bbstitle = #{bbstitle}, bbscontent = #{bbscontent} WHERE bbsid = #{bbsid}
+	</update>
+	
+	<delete id="deleteBoard">
+		delete from bbs where bbsid=#{bbsid}
+	</delete>
+	
+	<!-- 전체검색 -->
+	<select id="getBoardList" resultMap="boardResult">
+		select * from bbs order by bbsID desc
+	</select>	
+	
+	<!-- 상세검색 -->
+	<select id="getBoard" resultType="board">
+		select * from bbs where bbsid=#{bbsid}
+	</select>
+	
+	
+	
+</mapper>

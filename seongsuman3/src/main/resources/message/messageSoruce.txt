@@ -1,0 +1,19 @@
+# login.jsp
+message.user.login.loginTitle=로그인
+message.user.login.email=이메일
+message.user.login.password=비밀번호
+message.user.login.savepassword=비밀번호 저장
+message.user.login.forgetpassword=비밀번호를 잊으셨나요?
+message.user.login.donthave=이메일이 없다면?
+message.user.login.register=등록
+
+message.user.login.language.en=영어
+message.user.login.language.ko=한국어
+
+# register.jsp
+message.user.register.mainTitle=등록
+message.user.register.email=이메일
+message.user.register.password=비밀번호
+message.user.register.name=이름
+message.user.register.address=주소
+message.user.register.cancel=취소
