@@ -7,6 +7,10 @@
 
 # Project : Seongsuman (개인프로젝트)
 
+
+![성수만_로그인회원가입_gif](https://github.com/Hoonyyyy/Seongsuman_project/assets/111875357/a6d04ba2-6b90-4b8f-a703-ce0504fbf864)
+
+
 ## 💻 참여자
 👩🏻‍💻[Hoony](https://github.com/Hoonyyyy) 
 
