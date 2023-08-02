@@ -7,6 +7,9 @@
 
 # Project : Seongsuman (개인프로젝트)
 
+## main
+![성수만_main](https://github.com/Hoonyyyy/Seongsuman_project/assets/111875357/792f3d77-b373-4b08-8588-77af562b51a6)
+
 ## 로그인 회원가입 화면
 ![성수만_로그인회원가입_gif](https://github.com/Hoonyyyy/Seongsuman_project/assets/111875357/a6d04ba2-6b90-4b8f-a703-ce0504fbf864)
 
