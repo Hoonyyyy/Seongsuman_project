@@ -12,7 +12,7 @@
 
 
 ## :bookmark_tabs: Notion
-:round_pushpin:https://www.notion.so/Team-Project-Tt-9b1b4bad9885424ca212ff5c22a2d0c6
+:round_pushpin:[https://www.notion.so/Team-Project-Tt-9b1b4bad9885424ca212ff5c22a2d0c6](https://massive-tortoise-5e7.notion.site/Project-dec222e258af4b2993802582ba72fcb5?pvs=4)
 
 
 
